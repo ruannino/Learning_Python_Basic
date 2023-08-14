@@ -8,12 +8,15 @@ n_imp = []
 n_par = []
 while True:
     numbers.append(int(input('Digite um número: ')))
-    continuar = str(input('Quer continuar ? [S/N]: ')).upper().strip()
-    if continuar == 'N':
+    mensagem = str(input('Quer continuar ? [S/N]')).strip().upper()
+    if mensagem in 'N':
         break
-for n in range(0, numbers):
-    if numbers[n] % 2 == 0:
-        n_par.append(numbers(n[:]))
+for c in numbers:
+    if c % 2 == 0:
+        n_par.append(c)
+        c += 1
+    else:
+        n_imp.append(c)
 print(numbers)
 print(n_imp)
 print(n_par)
