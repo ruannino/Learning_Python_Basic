@@ -1,6 +1,5 @@
 # Crie um programa que crie uma matriz de dimensão 3x3 e preencha com valores lidos pelo teclado.
 # No final, mostre a matriz na tela, com a formatação correta.
-#         0,0-0,1-0,2    1,0-1,1-1,2   2,0-2,1-2,2
 matriz = []
 for e in range(3):
     linha = []

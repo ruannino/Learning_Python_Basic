@@ -5,14 +5,11 @@ while True:
     nome = input('Nome Aluno: ')
     nota1 = float(input(f'Primeira nota de {nome}: '))
     nota2 = float(input(f'Segunda nota de {nome}: '))
-
     media = (nota1 + nota2) / 2
     alunos.append([nome, nota1, nota2, media])
-
     resposta = str(input('Deseja continuar? [S/N]: ')).upper().strip()
     if resposta[0] != 'S':
         break
-
 print('{:^40}'.format('BOLETIM'))
 print('-' * 40)
 print('{:<5} {:<20} {:<8}'.format('Nº', 'NOME', 'MÉDIA'))
