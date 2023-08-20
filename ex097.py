@@ -8,4 +8,4 @@ def escreva(msg):
 
 
 txt = input('Digite um Título: ')
-escreva(txt)
+escreva(txt)git statistics
