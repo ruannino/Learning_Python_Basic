@@ -2,19 +2,31 @@
 # vai sortear 5 números e vai colocá-los dentro da lista e a segunda função vai mostrar a soma entre todos os valores
 # PARES sorteados pela função anterior.
 from random import randint
-def sorteia():
-    numeros = list()
+from time import sleep
+
+
+def sorteia(lista):
+    print('Sorteando os valores da lista...')
+    print('=-' * 30)
     for num in range(0, 5):
         n = randint(0, 100)
-        numeros.append(n)
-    print(numeros)
+        lista.append(n)
+        sleep(0.5)
+        print(f'{n} ', end='')
+    print('Pronto!')
 
 
-def somaPar(numeros):
+def somaPar(lista):
     soma = 0
     for num in numeros:
-        if num % 2 ==0:
+        if num % 2 == 0:
             soma += num
+    print(f'Somando os valores pares {lista}, temos {soma}.')
+    print('=-' * 30)
 
 
-sorteia()
+numeros = list()
+sorteia(numeros)
+somaPar(numeros)
+
+

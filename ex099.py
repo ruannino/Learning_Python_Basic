@@ -6,8 +6,7 @@ from time import sleep
 def maior(* num):
     print('=-' * 20)
     print('Analizando os valores passados...')
-    big = 0
-    c = 0
+    big = c = 0
     for c, n in enumerate(num):
         print(f'{n} ', end='')
         if c == 0 or n > big:
