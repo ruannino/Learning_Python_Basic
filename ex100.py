@@ -8,7 +8,7 @@ from time import sleep
 def sorteia(lista):
     print('Sorteando os valores da lista...')
     print('=-' * 30)
-    for num in range(0, 5):
+    for n in range(0, 5):
         n = randint(0, 100)
         lista.append(n)
         sleep(0.5)
@@ -16,7 +16,7 @@ def sorteia(lista):
     print('Pronto!')
 
 
-def somaPar(lista):
+def soma_par(lista):
     soma = 0
     for num in numeros:
         if num % 2 == 0:
@@ -27,6 +27,4 @@ def somaPar(lista):
 
 numeros = list()
 sorteia(numeros)
-somaPar(numeros)
-
-
+soma_par(numeros)

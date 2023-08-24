@@ -6,7 +6,7 @@
 
 def fatorial(num, show=False):
     """
-    -> Funçao calcula o fatorial de um número e exibe o resultado na tela.
+    -> Função calcula o fatorial de um número e exibe o resultado na tela.
     :param num: recebe o valor do número.
     :param show: parâmetro opcional para exibir ou não todo o calculo
     :return: retorna o fatorial de um número na tela.
