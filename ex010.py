@@ -3,4 +3,4 @@
 reais = float(input('Diga quantos reais você tem? R$'))
 dolar = 4.89
 qnt_dolares = reais / dolar
-print(f'Você pode comprar {qnt_dolares:.2f}')
+print(f'Você pode comprar \033[32mU${qnt_dolares:.2f}\033[m.')
