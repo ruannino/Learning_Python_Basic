@@ -1,4 +1,4 @@
-![Python-Learning-CursoEmVideo-IntelliJ_Image](Users\Python-Learning-CursoEmVideo-IntelliJ_Image.jpg)
+![Python-Learning-CursoEmVideo-IntelliJ_Image](Users/Python-Learning-CursoEmVideo-IntelliJ_Image.jpg)
 
 <h1 aling="center"> Python-Learning-CursoEmVideo-IntelliJ </h1>
 <h2 aling="center"> Exercises and more </h2>
