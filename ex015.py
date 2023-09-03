@@ -3,7 +3,7 @@
 # pelos quais ele foi alugado
 # Calcule o preço a pagar, sabendo que o carro custa R$ 60 por dia e R$ 0.15 por km rodado
 dias = int(input('Dias de aluguel: '))
-km = int(input('Km rodado: '))
+km = float(input('Km rodado: '))
 aluguel_dias = dias * 60
 aluguel_km = km * 0.15
 total_aluguel = aluguel_km + aluguel_dias
