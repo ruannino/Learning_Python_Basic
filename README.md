@@ -26,18 +26,51 @@ ___________________________________________________________________________
 ## Mundo 1
 ___________________________________________________________________________
 ### Conhecendo a Linguagem
-- [ex001](ex001.py) - Deixando tudo pronto
-- [ex002 - Respondendo ao usuário](Mundo1/ex002.py)
+- [ex001](ex001.py) - Deixanto tudo pronto
+- [ex002](ex002.py) - Respondendo ao usuário
 
 ### Primeiros Passos
-- [ex003 - Somando dois números](Mundo1/ex003.py)
-- [ex004 - Dissecando uma variável](Mundo1/ex004.py)
+- [ex003](ex003.py) - Somando dois números
+- [ex004](ex004.py) - Dissecando uma variável
 
 ### Cálculos e Operações
-- [ex005 - Antecessor e sucessor](Mundo1/ex005.py)
-- [ex006 - Dobro, triplo e raiz quadrada](Mundo1/ex006.py)
-- [ex007 - Média aritmética](Mundo1/ex006.py)
+- [ex005](ex005.py) - Antecessor e sucessor
+- [ex006](ex006.py) - Dobro, triplo e raiz quadrada
+- [ex007](ex007.py) - Média aritmética
+- [ex008](ex008.py) - Conversor de medidas
+- [ex009](ex009.py) - Tabuada
+- [ex010](ex010.py) - Conversor de moedas
+- [ex011](ex011.py) - Pintando parede
+- [ex012](ex012.py) - Calculando descontos
+- [ex013](ex013.py) - Reajuste Salarial
+- [ex014](ex014.py) - Conversor de temperaturas
+- [ex015](ex015.py) - Aluguel de carros
 
+### Módulos
+- [ex016](ex016.py) - Quebrando um número
+- [ex017](ex017.py) - Catetos e hipotenusa
+- [ex018](ex018.py) - Seno, cosseno e tangente
+- [ex019](ex019.py) - Sorteando um item na lista
+- [ex020](ex020.py) - Sorteando uma ordem na lista
+- [ex021](ex021.py) - Tocando um MP3
+
+### Estruturas Condicionais
+- [ex022](ex022.py) - Analisador de textos
+- [ex023](ex023.py) - Separando dígitos de um número
+- [ex024](ex024.py) - Verificando as primeiras letras de um texto
+- [ex025](ex025.py) - Procurando uma string dentro de outra
+- [ex026](ex026.py) - Primeira e úldima ocorrência de uma string
+- [ex027](ex027.py) - Primeiro e último nome de uma pessoa
+
+### Estruturas Condicionais
+- [ex028](ex028.py) - Jogo da adivinhação v1.0
+- [ex029](ex029.py) - Radar eletrônico
+- [ex030](ex030.py) - Par ou ímpar?
+- [ex031](ex031.py) - Custo da viagem
+- [ex032](ex032.py) - Ano bissexto
+- [ex033](ex033.py) - Maior e menor valores
+- [ex034](ex034.py) - Aumentos múltiplos
+- [ex035](ex035.py) - Analisando triângulo v1.0
 
 ### Mundo 2 - Condições em Python
 - [ex036 - Aprovando empréstimo](Mundo2/ex036.py)
