@@ -20,28 +20,29 @@ ___________________________________________________________________________
 
 # Lista de Temas de Cada Módulo
 
-Tudo resumidamente feito com as minhas técnicas 
+Tudo resumidamente feito com as minhas técnicas, irei marcar os exercícios 
+mais difíceis
 ___________________________________________________________________________
-
 ## Mundo 1
 ___________________________________________________________________________
-Conhecendo a Linguagem
-- [ex001 - Deixando tudo pronto](Mundo1/ex001.py)
+### Conhecendo a Linguagem
+- [ex001](ex001.py) - Deixando tudo pronto
 - [ex002 - Respondendo ao usuário](Mundo1/ex002.py)
 
-Primeiros Passos
+### Primeiros Passos
 - [ex003 - Somando dois números](Mundo1/ex003.py)
 - [ex004 - Dissecando uma variável](Mundo1/ex004.py)
 
-### Mundo 1 - Cálculos e Operações
+### Cálculos e Operações
 - [ex005 - Antecessor e sucessor](Mundo1/ex005.py)
 - [ex006 - Dobro, triplo e raiz quadrada](Mundo1/ex006.py)
+- [ex007 - Média aritmética](Mundo1/ex006.py)
 
-### ...
 
 ### Mundo 2 - Condições em Python
 - [ex036 - Aprovando empréstimo](Mundo2/ex036.py)
-- [ex037 - Conversor de bases numéricas](Mundo2/ex037.py)
+
+- [ex037](Mundo2/ex037.py) - Conversor de bases numéricas
 
 ### Mundo 2 - Repetições em Python (for)
 - [ex046 - Contagem regressiva](Mundo2/ex046.py)
