@@ -72,8 +72,20 @@ ___________________________________________________________________________
 - [ex034](ex034.py) - Aumentos múltiplos
 - [ex035](ex035.py) - Analisando triângulo v1.0
 
-### Mundo 2 - Condições em Python
-- [ex036 - Aprovando empréstimo](Mundo2/ex036.py)
+___________________________________________________________________________
+## Mundo 2
+___________________________________________________________________________
+### Condições em Python
+- [ex036](ex036.py) - Aprovando empréstimo
+- [ex037](ex037.py) - Conversor de bases numéricas
+- [ex038](ex038.py) - Comparando números
+- [ex039](ex039.py) - Alistamento militar
+- [ex040](ex040.py) - Aquele clássico da média
+- [ex041](ex041.py) - Classificando atletas
+- [ex042](ex042.py) - Analisando triângulos v2.0
+- [ex043](ex043.py) - Índice de Massa Corporal
+- [ex044](ex044.py) - Gerenciador de pagamentos
+- [ex045](ex045.py) - GAME: Pedra, Papel e Tesoura
 
 - [ex037](Mundo2/ex037.py) - Conversor de bases numéricas
 
