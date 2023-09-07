@@ -87,15 +87,40 @@ ___________________________________________________________________________
 - [ex044](ex044.py) - Gerenciador de pagamentos
 - [ex045](ex045.py) - GAME: Pedra, Papel e Tesoura
 
-- [ex037](Mundo2/ex037.py) - Conversor de bases numéricas
+## Repetições em Python (for)
+- [ex046](ex046.py) - Contagem regressiva
+- [ex047](ex047.py) - Contagem de pares
+- [ex048](ex048.py) - Soma ímpares múltiplos de três
+- [ex049](ex049.py) - Tabuada v2.0
+- [ex050](ex050.py) - Soma dos pares
+- [ex051](ex051.py) - Progressão Aritmética
+- [ex052](ex052.py) - Números primos
+- [ex053](ex053.py) - Detector de palíndromo
+- [ex054](ex054.py) - Grupo da maioridade
+- [ex055](ex055.py) - Maior e menor da sequência
+- [ex056](ex056.py) - Analisador completo
 
-### Mundo 2 - Repetições em Python (for)
-- [ex046 - Contagem regressiva](Mundo2/ex046.py)
-- [ex047 - Contagem de pares](Mundo2/ex047.py)
+## Repetições em Python (while)
+- [ex057](ex057.py) - Validação de dados
+- [ex058](ex058.py) - Jogo de adivinhação v2.0
+- [ex059](ex059.py) - Criando um menu de opções
+- [ex060](ex060.py) - Cálculo do fatorial
+- [ex061](ex061.py) - Progressão Aritmética v2.0
+- [ex062](ex062.py) - Super Progressão Aritmética v3.0
+- [ex063](ex063.py) - Sequência de Fibonacci v1.0
+- [ex064](ex064.py) - Tratando vários valores v1.0
+- [ex065](ex065.py) - Maior e menor valores
+- [ex066](ex066.py) - Vários números com flag
+- [ex067](ex067.py) - Tabuada v3.0
+- [ex068](ex068.py) - Jogo do par ou ímpar
+- [ex069](ex069.py) - Análise de dados do grupo
+- [ex070](ex070.py) - Estatística de produto
+- [ex071](ex071.py) - Simulador de caixa eletrônico
 
-### ...
-
-### Mundo 3 - Tuplas
+___________________________________________________________________________
+## Mundo 3
+___________________________________________________________________________
+### Tuplas
 - [ex072 - Número por extenso](Mundo3/ex072.py)
 - [ex073 - Tuplas com times de futebol](Mundo3/ex073.py)
 
