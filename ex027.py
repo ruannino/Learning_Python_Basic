@@ -4,7 +4,8 @@
 # Primeiro = Ana
 # Último: Souza
 nome = str(input('Digite o nome completo: ')).split()
+print('Muito prazer em te conhecer!')
 primeiro_nome = nome[0]
 ultimo_nome = nome[-1]
-print(f'Primeiro nome = {primeiro_nome}')
-print(f'Último nome = {ultimo_nome}')
+print(f'O seu primeiro nome é {primeiro_nome}.')
+print(f'O seu último nome é {ultimo_nome}.')

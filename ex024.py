@@ -2,4 +2,4 @@
 cidade = str(input('Digite o nome da cidade: '))
 fatiado = cidade.split()
 comp = "SANTO" in fatiado[0].upper()
-print(comp)
+print(f'A cidade começa com Santo ? {comp}')
