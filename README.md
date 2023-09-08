@@ -121,14 +121,20 @@ ___________________________________________________________________________
 ## Mundo 3
 ___________________________________________________________________________
 ### Tuplas
-- [ex072 - Número por extenso](Mundo3/ex072.py)
-- [ex073 - Tuplas com times de futebol](Mundo3/ex073.py)
+- [ex072](ex072.py) - Número por extenso
+- [ex073](ex073.py) - Tuplas com times de futebol
+- [ex074](ex074.py) - Maior e menor valores em tupla
+- [ex075](ex075.py) - Análise de dados em uma tupla
+- [ex076](ex076.py) - Lista de preços com tupla
+- [ex077](ex077.py) - Contando vogais em tupla
 
-### Mundo 3 - Listas
-- [ex078 - Maior e menor valores na lista](Mundo3/ex078.py)
-- [ex079 - Valores únicos em uma lista](Mundo3/ex079.py)
-
-### ...
+### Listas
+- [ex078](ex078.py) - Maior e menor valores na lista
+- [ex079](ex079.py) - Valores únicos em uma lista
+- [ex080](ex080.py) - Lista ordenada sem repetições
+- [ex081](ex081.py) - Extraindo dados de uma lista
+- [ex082](ex082.py) - Dividindo valores em várias listas
+- [ex083](ex083.py) - Validando expressões matemáticas
 
 ### Mundo 3 - Tratamento de erros em Python
 - [ex113 - Funções aprofundadas em Python](Mundo3/ex113.py)
