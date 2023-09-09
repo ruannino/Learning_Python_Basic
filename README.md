@@ -136,9 +136,13 @@ ___________________________________________________________________________
 - [ex082](ex082.py) - Dividindo valores em várias listas
 - [ex083](ex083.py) - Validando expressões matemáticas
 
-### Mundo 3 - Tratamento de erros em Python
-- [ex113 - Funções aprofundadas em Python](Mundo3/ex113.py)
-- [ex114 - Site está acessível?](Mundo3/ex114.py)
+### Listas (Parte 2)
+- [ex084](ex084.py) - Lista composta e análise de dados
+- [ex085](ex085.py) - Listas com pares e ímpares
+- [ex086](ex086.py) - Matrix em Python
+- [ex087](ex087.py) - Mais sobre matrix em Python
+- [ex088](ex088.py) - Palpites para a Mega-Sena
+- [ex089](ex089.py) - Boletim com listas composta
 
 ### Mundo 3 - Modularização em Python
 - [ex115 - Criando um menu em Python](Mundo3/ex115.py)
