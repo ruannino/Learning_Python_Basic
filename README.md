@@ -26,54 +26,54 @@ ___________________________________________________________________________
 ## Mundo 1
 ___________________________________________________________________________
 ### Conhecendo a Linguagem
-- [ex001](ex001.py) - Deixanto tudo pronto
-- [ex002](ex002.py) - Respondendo ao usuário
+- [ex001](Mundo_1/ex001.py) - Deixanto tudo pronto
+- [ex002](Mundo_1/ex002.py) - Respondendo ao usuário
 
 ### Primeiros Passos
-- [ex003](ex003.py) - Somando dois números
-- [ex004](ex004.py) - Dissecando uma variável
+- [ex003](Mundo_1/ex003.py) - Somando dois números
+- [ex004](Mundo_1/ex004.py) - Dissecando uma variável
 
 ### Cálculos e Operações
-- [ex005](ex005.py) - Antecessor e sucessor
-- [ex006](ex006.py) - Dobro, triplo e raiz quadrada
-- [ex007](ex007.py) - Média aritmética
-- [ex008](ex008.py) - Conversor de medidas
-- [ex009](ex009.py) - Tabuada
-- [ex010](ex010.py) - Conversor de moedas
-- [ex011](ex011.py) - Pintando parede
-- [ex012](ex012.py) - Calculando descontos
-- [ex013](ex013.py) - Reajuste Salarial
-- [ex014](ex014.py) - Conversor de temperaturas
-- [ex015](ex015.py) - Aluguel de carros
+- [ex005](Mundo_1/ex005.py) - Antecessor e sucessor
+- [ex006](Mundo_1/ex006.py) - Dobro, triplo e raiz quadrada
+- [ex007](Mundo_1/ex007.py) - Média aritmética
+- [ex008](Mundo_1/ex008.py) - Conversor de medidas
+- [ex009](Mundo_1/ex009.py) - Tabuada
+- [ex010](Mundo_1/ex010.py) - Conversor de moedas
+- [ex011](Mundo_1/ex011.py) - Pintando parede
+- [ex012](Mundo_1/ex012.py) - Calculando descontos
+- [ex013](Mundo_1/ex013.py) - Reajuste Salarial
+- [ex014](Mundo_1/ex014.py) - Conversor de temperaturas
+- [ex015](Mundo_1/ex015.py) - Aluguel de carros
 
 ### Módulos
-- [ex016](ex016.py) - Quebrando um número
-- [ex017](ex017.py) - Catetos e hipotenusa
-- [ex018](ex018.py) - Seno, cosseno e tangente
-- [ex019](ex019.py) - Sorteando um item na lista
-- [ex020](ex020.py) - Sorteando uma ordem na lista
-- [ex021](ex021.py) - Tocando um MP3
+- [ex016](Mundo_1/ex016.py) - Quebrando um número
+- [ex017](Mundo_1/ex017.py) - Catetos e hipotenusa
+- [ex018](Mundo_1/ex018.py) - Seno, cosseno e tangente
+- [ex019](Mundo_1/ex019.py) - Sorteando um item na lista
+- [ex020](Mundo_1/ex020.py) - Sorteando uma ordem na lista
+- [ex021](Mundo_1/ex021.py) - Tocando um MP3
 
 ### Estruturas Condicionais
-- [ex022](ex022.py) - Analisador de textos
-- [ex023](ex023.py) - Separando dígitos de um número
-- [ex024](ex024.py) - Verificando as primeiras letras de um texto
-- [ex025](ex025.py) - Procurando uma string dentro de outra
-- [ex026](ex026.py) - Primeira e úldima ocorrência de uma string
-- [ex027](ex027.py) - Primeiro e último nome de uma pessoa
+- [ex022](Mundo_1/ex022.py) - Analisador de textos
+- [ex023](Mundo_1/ex023.py) - Separando dígitos de um número
+- [ex024](Mundo_1/ex024.py) - Verificando as primeiras letras de um texto
+- [ex025](Mundo_1/ex025.py) - Procurando uma string dentro de outra
+- [ex026](Mundo_1/ex026.py) - Primeira e úldima ocorrência de uma string
+- [ex027](Mundo_1/ex027.py) - Primeiro e último nome de uma pessoa
 
 ### Estruturas Condicionais
-- [ex028](ex028.py) - Jogo da adivinhação v1.0
-- [ex029](ex029.py) - Radar eletrônico
-- [ex030](ex030.py) - Par ou ímpar?
-- [ex031](ex031.py) - Custo da viagem
-- [ex032](ex032.py) - Ano bissexto
-- [ex033](ex033.py) - Maior e menor valores
-- [ex034](ex034.py) - Aumentos múltiplos
-- [ex035](ex035.py) - Analisando triângulo v1.0
+- [ex028](Mundo_1/ex028.py) - Jogo da adivinhação v1.0
+- [ex029](Mundo_1/ex029.py) - Radar eletrônico
+- [ex030](Mundo_1/ex030.py) - Par ou ímpar?
+- [ex031](Mundo_1/ex031.py) - Custo da viagem
+- [ex032](Mundo_1/ex032.py) - Ano bissexto
+- [ex033](Mundo_1/ex033.py) - Maior e menor valores
+- [ex034](Mundo_1/ex034.py) - Aumentos múltiplos
+- [ex035](Mundo_1/ex035.py) - Analisando triângulo v1.0
 
 ___________________________________________________________________________
-## Mundo 2
+## Mundo 2: estruturas de controle
 ___________________________________________________________________________
 ### Condições em Python
 - [ex036](ex036.py) - Aprovando empréstimo
@@ -87,8 +87,8 @@ ___________________________________________________________________________
 - [ex044](ex044.py) - Gerenciador de pagamentos
 - [ex045](ex045.py) - GAME: Pedra, Papel e Tesoura
 
-## Repetições em Python (for)
-- [ex046](ex046.py) - Contagem regressiva
+### Repetições em Python (for)
+- [ex046](Mundo_1.ex046.py) - Contagem regressiva
 - [ex047](ex047.py) - Contagem de pares
 - [ex048](ex048.py) - Soma ímpares múltiplos de três
 - [ex049](ex049.py) - Tabuada v2.0
@@ -100,7 +100,7 @@ ___________________________________________________________________________
 - [ex055](ex055.py) - Maior e menor da sequência
 - [ex056](ex056.py) - Analisador completo
 
-## Repetições em Python (while)
+### Repetições em Python (while)
 - [ex057](ex057.py) - Validação de dados
 - [ex058](ex058.py) - Jogo de adivinhação v2.0
 - [ex059](ex059.py) - Criando um menu de opções
@@ -118,7 +118,7 @@ ___________________________________________________________________________
 - [ex071](ex071.py) - Simulador de caixa eletrônico
 
 ___________________________________________________________________________
-## Mundo 3
+## Mundo 3: estruturas compostas
 ___________________________________________________________________________
 ### Tuplas
 - [ex072](ex072.py) - Número por extenso
@@ -143,9 +143,43 @@ ___________________________________________________________________________
 - [ex087](ex087.py) - Mais sobre matrix em Python
 - [ex088](ex088.py) - Palpites para a Mega-Sena
 - [ex089](ex089.py) - Boletim com listas composta
+- 
+### Dicionários
+- [ex090](ex090.py) - Dicionário em Python
+- [ex092](ex091.py) - Jogo de dados em Python
+- [ex092](ex092.py) - Cadastro de trabalhador em Python
+- [ex093](ex093.py) - Cadastro de jogador de futebol
+- [ex094](ex094.py) - Unindo dicionários e listas
+- [ex095](ex095.py) - Aprimorando dicionários
 
-### Mundo 3 - Modularização em Python
-- [ex115 - Criando um menu em Python](Mundo3/ex115.py)
+### Funções
+- [ex096](ex096.py) - Função que calcula área
+- [ex097](ex097.py) - Um print especial
+- [ex098](ex098.py) - Função de contador
+- [ex099](ex099.py) - Função que descobre o maior
+- [ex100](ex100.py) - Funções para sortear e somar
+- [ex101](ex101.py) - Funções para votação
+- [ex102](ex102.py) - Função para fatorial
+- [ex103](ex103.py) - Ficha do jogador
+- [ex104](ex104.py) - Validando entrada de dados em Python
+- [ex105](ex105.py) - Analisando e gerando dicionários
+- [ex106](ex106.py) - Sistema interativo de ajuda em Python
+
+### Modularização em Python
+- [ex107](ex107.py) - Exercitando módulos em Python
+- [ex108](ex108.py) - Formatando moedas em Python
+- [ex109](ex109.py) - Formatando moedas em Python
+- [ex110](ex110.py) - Reduzindo ainda mais o seu programa
+- [ex111](ex111.py) - Transformando módulos em pacotes
+- [ex112](ex112.py) - Entrada de dados monetários
+
+### Tratamento de erros em Python
+- [ex113](ex113.py) - Funções aprofundadas em Python
+- [ex114](ex114.py) - Site está acessível?
+- [ex115a](ex115a.py) - Criando um menu em Python
+- [ex115b](ex115b.py) - Criando um menu em Python
+- [ex115c](ex115c.py) - Finalizando o projeto
+
 # Autor
 
 | [<img src="https://avatars.githubusercontent.com/u/105193525?v=4" width=115><br><sub>Ruannino Farias</sub>](https://github.com/ruannino) 
