@@ -2,3 +2,4 @@
 # 1 para binário;
 # 2 para octal;
 # 2 para hexadecimal.
+
