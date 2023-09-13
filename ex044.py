@@ -4,3 +4,4 @@
 # - à vista no cartão: 5% de desconto;
 # - em até 2x no cartão: preço normal;
 # - em 3x ou mais no cartão: 20% de juros;
+valor_produto = float(input('Valor do produto: R$'))
