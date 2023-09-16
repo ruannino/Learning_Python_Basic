@@ -20,4 +20,4 @@ elif valor_por_prestacao > porcentagem_salarial:
     print('-' * 80)
     print('\033[31mEmpréstimo NEGADO!\033[m')
     print('A parcela do empréstimo excedeu \033[31m30%\033[m do seu salário.')
-print('-' * 40)
+print('-' * 80)
