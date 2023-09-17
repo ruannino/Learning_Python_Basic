@@ -6,12 +6,12 @@
 # - em 3x ou mais no cartão: 20% de juros;
 valor_produto = float(input('Valor do produto: R$'))
 print('-' * 80)
-print('PRODUTO'.center(80))
+print(" LOJA DE PRODUTOS ".center(80, "="))
 print('-' * 80)
 forma_pagamento = int(input('''
 \033[40m[ 1 ]\033[m - À vista dinheiro/cheque;
 \033[40m[ 2 ]\033[m - À vista no cartão;
-\033[40m[ 3 ]\033[m - Em até 2x no cartão;
+\033[40m[ 3 ]\033[m - 2x no cartão;
 \033[40m[ 4 ]\033[m - Em 3x ou mais no cartão;
 Qual a forma de pagamento? 
 '''))
@@ -25,8 +25,12 @@ elif forma_pagamento == 2:
 elif forma_pagamento == 3:
     print(f'O valor a ser pago é \033[32mR${valor_produto:.2f}\033[m')
 elif forma_pagamento == 4:
-    av_cartao = valor_produto + (20 / 100) * valor_produto
-    print(f'Você terá \033[34m20% de acréscimo\033[m. O valor a ser pago é \033[32mR${av_cartao:.2f}\033[m')
+    dv_cartao = valor_produto + (20 / 100) * valor_produto
+    qnt_parcelas = int(input('Quantidade de parcelas? '))
+    parcelas = dv_cartao / qnt_parcelas
+    print(f'Você terá\033[34m 20% de acréscimo\033[m,'
+          f'\nPagamento será de \033[33m{qnt_parcelas}\033[m x \033[32m{parcelas:.2f}\033[m'
+          f'\nO valor a ser pago é \033[32mR${dv_cartao:.2f}\033[m')
 else:
     print('\033[31mERRO! Você digitou uma forma de pagamento inválida.\033[m')
 print('-' * 80)
