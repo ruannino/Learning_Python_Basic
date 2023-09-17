@@ -25,8 +25,8 @@ elif forma_pagamento == 2:
 elif forma_pagamento == 3:
     print(f'O valor a ser pago é \033[32mR${valor_produto:.2f}\033[m')
 elif forma_pagamento == 4:
-    av_cartao = valor_produto + (5 / 100) * valor_produto
-    print(f'Você terá \033[34m5% de acréscimo\033[m. O valor a ser pago é \033[32mR${av_cartao:.2f}\033[m')
+    av_cartao = valor_produto + (20 / 100) * valor_produto
+    print(f'Você terá \033[34m20% de acréscimo\033[m. O valor a ser pago é \033[32mR${av_cartao:.2f}\033[m')
 else:
     print('\033[31mERRO! Você digitou uma forma de pagamento inválida.\033[m')
 print('-' * 80)
