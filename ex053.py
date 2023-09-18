@@ -4,3 +4,9 @@
 # A torre da derrota
 # o lobo ama o bolo
 # Anotaram a data da maratona
+inverse = ''
+frase = str(input('Digite uma frase qualquer: ')).upper().strip().split()
+colar = ''.join(frase)
+for c in range(0, len(colar), -1):
+    inverse += colar[c]
+print(colar, inverse)
