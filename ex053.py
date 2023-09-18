@@ -4,9 +4,9 @@
 # A torre da derrota
 # o lobo ama o bolo
 # Anotaram a data da maratona
-inverse = ''
-frase = str(input('Digite uma frase qualquer: ')).upper().strip().split()
-colar = ''.join(frase)
-for c in range(0, len(colar), -1):
-    inverse += colar[c]
-print(colar, inverse)
+frase = str(input('Digite uma frase qualquer: ')).upper().strip().replace(" ", "")
+inverse = frase[::-1]
+if frase == inverse:
+    print(f'\033[32mA frase é um PALÍNDROMO!\033[m')
+else:
+    print(f'\033[31mNÃO é um palíndromo!\033[m')
