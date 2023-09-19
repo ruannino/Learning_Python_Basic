@@ -7,6 +7,8 @@
 frase = str(input('Digite uma frase qualquer: ')).upper().strip().replace(" ", "")
 inverse = frase[::-1]
 if frase == inverse:
+    print(f'O inverso de \033[33m{frase}\033[m é \033[33m{inverse}\033[m.')
     print(f'\033[32mA frase é um PALÍNDROMO!\033[m')
 else:
-    print(f'\033[31mNÃO é um palíndromo!\033[m')
+    print(f'O inverso de \033[33m{frase}\033[m é \033[33m{inverse}\033[m.')
+    print(f'\033[31mA frase NÃO é um palíndromo!\033[m')

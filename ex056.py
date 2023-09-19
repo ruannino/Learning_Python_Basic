@@ -5,7 +5,7 @@
 mais_velho = soma = mais_nova = 0
 homem_velho = ''
 for c in range(1, 5):
-    nome = str(input(f'Digite o nome da {c}º pessoa: '))
+    nome = str(input(f'Digite o nome da {c}º pessoa: ')).strip()
     idade = int(input(f'Digite a idade de {nome}: '))
     sexo = str(input(f'Digite o sexo de {nome}: \033[30m[M/F]\033[m')).strip().upper()
     soma += idade
@@ -16,6 +16,6 @@ for c in range(1, 5):
         homem_velho = nome
 media = soma / 4
 print(f'As informações gerais do grupo:'
-      f'\nA média de idade do grupo é de \033[32m{media:.2f}\033[m anos.'
+      f'\nA média de idade do grupo é de \033[32m{media:.0f}\033[m anos.'
       f'\nO homem mais venho se chama \033[32m{homem_velho}\033[m.'
-      f'\nExistem \033[32m0{mais_nova}/033[m mulher(es) com menos de 20 anos.')
+      f'\nExistem \033[32m0{mais_nova}\033[m mulher(es) com menos de 20 anos.')
