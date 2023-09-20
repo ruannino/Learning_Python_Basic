@@ -5,14 +5,12 @@
 # 4: novos números
 # 5: sair do programa
 # Seu programa deverá realizar a operação solicitada em cada caso:
-num1 = num2 = 0
-opcao =
+opcao = 4
 print('=' * 40)
 print('=' * 40)
+num1 = int(input('Digite o primeiro número: '))
+num2 = int(input('Digite o segundo número: '))
 while opcao != 5:
-    while opcao == 4:
-        num1 = int(input('Digite o primeiro número: '))
-        num2 = int(input('Digite o segundo número: '))
     print('Escolha uma opção para realizar!')
     opcao = int(input('[1] Somar:'
                       '\n[2] Multiplicar:'
@@ -33,3 +31,7 @@ while opcao != 5:
         else:
             print(f'MAIOR:  {num2} > {num1}, logo {num2} é o MAIOR.')
             print('=' * 40)
+    elif opcao == 4:
+        num1 = int(input('Digite o primeiro número: '))
+        num2 = int(input('Digite o segundo número: '))
+print('\033[31mENCERRANDO...\033[m')
