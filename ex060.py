@@ -15,12 +15,9 @@ while c > 0:
     if n == c:
         print(f'{n}! = {c} x ', end='')
         c -= 1
-    elif c > 1 and c != n:
-        print(f'{c} x ', end='')
-        m *= c
-        c -= 1
     else:
-        print(f'{c} = ', end='')
+        print(f'{c}', end='')
+        print(' x ' if c > 1 else ' = ', end='')
         m *= c
         c -= 1
 print(f'{m}')
