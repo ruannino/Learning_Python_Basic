@@ -21,3 +21,15 @@ while c > 0:
         m *= c
         c -= 1
 print(f'{m}')
+
+# Método com FOR
+numb = int(input('Digite um número: '))
+mul = numb
+for c in range(numb, 0, -1):
+    if numb == c:
+        print(f'{numb}! = {c} x ', end ='')
+    else:
+        print(f'{c}', end='')
+        print(' x ' if c > 1 else ' = ', end='')
+        mul *= c
+print(mul)
