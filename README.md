@@ -76,46 +76,46 @@ ___________________________________________________________________________
 ## Mundo 2: estruturas de controle
 ___________________________________________________________________________
 ### Condições em Python
-- [ex036](ex036.py) - Aprovando empréstimo
-- [ex037](ex037.py) - Conversor de bases numéricas
-- [ex038](ex038.py) - Comparando números
-- [ex039](ex039.py) - Alistamento militar
-- [ex040](ex040.py) - Aquele clássico da média
-- [ex041](ex041.py) - Classificando atletas
-- [ex042](ex042.py) - Analisando triângulos v2.0
-- [ex043](ex043.py) - Índice de Massa Corporal
-- [ex044](ex044.py) - Gerenciador de pagamentos
-- [ex045](ex045.py) - GAME: Pedra, Papel e Tesoura
+- [ex036](Mundo_2/ex036.py) - Aprovando empréstimo
+- [ex037](Mundo_2/ex037.py) - Conversor de bases numéricas
+- [ex038](Mundo_2/ex038.py) - Comparando números
+- [ex039](Mundo_2/ex039.py) - Alistamento militar
+- [ex040](Mundo_2/ex040.py) - Aquele clássico da média
+- [ex041](Mundo_2/ex041.py) - Classificando atletas
+- [ex042](Mundo_2/ex042.py) - Analisando triângulos v2.0
+- [ex043](Mundo_2/ex043.py) - Índice de Massa Corporal
+- [ex044](Mundo_2/ex044.py) - Gerenciador de pagamentos
+- [ex045](Mundo_2/ex045.py) - GAME: Pedra, Papel e Tesoura
 
 ### Repetições em Python (for)
 - [ex046](Mundo_1.ex046.py) - Contagem regressiva
-- [ex047](ex047.py) - Contagem de pares
-- [ex048](ex048.py) - Soma ímpares múltiplos de três
-- [ex049](ex049.py) - Tabuada v2.0
-- [ex050](ex050.py) - Soma dos pares
-- [ex051](ex051.py) - Progressão Aritmética
-- [ex052](ex052.py) - Números primos
-- [ex053](ex053.py) - Detector de palíndromo
-- [ex054](ex054.py) - Grupo da maioridade
-- [ex055](ex055.py) - Maior e menor da sequência
-- [ex056](ex056.py) - Analisador completo
+- [ex047](Mundo_2/ex047.py) - Contagem de pares
+- [ex048](Mundo_2/ex048.py) - Soma ímpares múltiplos de três
+- [ex049](Mundo_2/ex049.py) - Tabuada v2.0
+- [ex050](Mundo_2/ex050.py) - Soma dos pares
+- [ex051](Mundo_2/ex051.py) - Progressão Aritmética
+- [ex052](Mundo_2/ex052.py) - Números primos
+- [ex053](Mundo_2/ex053.py) - Detector de palíndromo
+- [ex054](Mundo_2/ex054.py) - Grupo da maioridade
+- [ex055](Mundo_2/ex055.py) - Maior e menor da sequência
+- [ex056](Mundo_2/ex056.py) - Analisador completo
 
 ### Repetições em Python (while)
-- [ex057](ex057.py) - Validação de dados
-- [ex058](ex058.py) - Jogo de adivinhação v2.0
-- [ex059](ex059.py) - Criando um menu de opções
-- [ex060](ex060.py) - Cálculo do fatorial
-- [ex061](ex061.py) - Progressão Aritmética v2.0
-- [ex062](ex062.py) - Super Progressão Aritmética v3.0
-- [ex063](ex063.py) - Sequência de Fibonacci v1.0
-- [ex064](ex064.py) - Tratando vários valores v1.0
-- [ex065](ex065.py) - Maior e menor valores
-- [ex066](ex066.py) - Vários números com flag
-- [ex067](ex067.py) - Tabuada v3.0
-- [ex068](ex068.py) - Jogo do par ou ímpar
-- [ex069](ex069.py) - Análise de dados do grupo
-- [ex070](ex070.py) - Estatística de produto
-- [ex071](ex071.py) - Simulador de caixa eletrônico
+- [ex057](Mundo_2/ex057.py) - Validação de dados
+- [ex058](Mundo_2/ex058.py) - Jogo de adivinhação v2.0
+- [ex059](Mundo_2/ex059.py) - Criando um menu de opções
+- [ex060](Mundo_2/ex060.py) - Cálculo do fatorial
+- [ex061](Mundo_2/ex061.py) - Progressão Aritmética v2.0
+- [ex062](Mundo_2/ex062.py) - Super Progressão Aritmética v3.0
+- [ex063](Mundo_2/ex063.py) - Sequência de Fibonacci v1.0
+- [ex064](Mundo_2/ex064.py) - Tratando vários valores v1.0
+- [ex065](Mundo_2/ex065.py) - Maior e menor valores
+- [ex066](Mundo_2/ex066.py) - Vários números com flag
+- [ex067](Mundo_2/ex067.py) - Tabuada v3.0
+- [ex068](Mundo_2/ex068.py) - Jogo do par ou ímpar
+- [ex069](Mundo_2/ex069.py) - Análise de dados do grupo
+- [ex070](Mundo_2/ex070.py) - Estatística de produto
+- [ex071](Mundo_2/ex071.py) - Simulador de caixa eletrônico
 
 ___________________________________________________________________________
 ## Mundo 3: estruturas compostas
