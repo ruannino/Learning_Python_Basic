@@ -121,64 +121,64 @@ ___________________________________________________________________________
 ## Mundo 3: estruturas compostas
 ___________________________________________________________________________
 ### Tuplas
-- [ex072](ex072.py) - Número por extenso
-- [ex073](ex073.py) - Tuplas com times de futebol
-- [ex074](ex074.py) - Maior e menor valores em tupla
-- [ex075](ex075.py) - Análise de dados em uma tupla
-- [ex076](ex076.py) - Lista de preços com tupla
-- [ex077](ex077.py) - Contando vogais em tupla
+- [ex072](Mundo_3/ex072.py) - Número por extenso
+- [ex073](Mundo_3/ex073.py) - Tuplas com times de futebol
+- [ex074](Mundo_3/ex074.py) - Maior e menor valores em tupla
+- [ex075](Mundo_3/ex075.py) - Análise de dados em uma tupla
+- [ex076](Mundo_3/ex076.py) - Lista de preços com tupla
+- [ex077](Mundo_3/ex077.py) - Contando vogais em tupla
 
 ### Listas
-- [ex078](ex078.py) - Maior e menor valores na lista
-- [ex079](ex079.py) - Valores únicos em uma lista
-- [ex080](ex080.py) - Lista ordenada sem repetições
-- [ex081](ex081.py) - Extraindo dados de uma lista
-- [ex082](ex082.py) - Dividindo valores em várias listas
-- [ex083](ex083.py) - Validando expressões matemáticas
+- [ex078](Mundo_3/ex078.py) - Maior e menor valores na lista
+- [ex079](Mundo_3/ex079.py) - Valores únicos em uma lista
+- [ex080](Mundo_3/ex080.py) - Lista ordenada sem repetições
+- [ex081](Mundo_3/ex081.py) - Extraindo dados de uma lista
+- [ex082](Mundo_3/ex082.py) - Dividindo valores em várias listas
+- [ex083](Mundo_3/ex083.py) - Validando expressões matemáticas
 
 ### Listas (Parte 2)
-- [ex084](ex084.py) - Lista composta e análise de dados
-- [ex085](ex085.py) - Listas com pares e ímpares
-- [ex086](ex086.py) - Matrix em Python
-- [ex087](ex087.py) - Mais sobre matrix em Python
-- [ex088](ex088.py) - Palpites para a Mega-Sena
-- [ex089](ex089.py) - Boletim com listas composta
+- [ex084](Mundo_3/ex084.py) - Lista composta e análise de dados
+- [ex085](Mundo_3/ex085.py) - Listas com pares e ímpares
+- [ex086](Mundo_3/ex086.py) - Matrix em Python
+- [ex087](Mundo_3/ex087.py) - Mais sobre matrix em Python
+- [ex088](Mundo_3/ex088.py) - Palpites para a Mega-Sena
+- [ex089](Mundo_3/ex089.py) - Boletim com listas composta
 - 
 ### Dicionários
-- [ex090](ex090.py) - Dicionário em Python
-- [ex092](ex091.py) - Jogo de dados em Python
-- [ex092](ex092.py) - Cadastro de trabalhador em Python
-- [ex093](ex093.py) - Cadastro de jogador de futebol
-- [ex094](ex094.py) - Unindo dicionários e listas
-- [ex095](ex095.py) - Aprimorando dicionários
+- [ex090](Mundo_3/ex090.py) - Dicionário em Python
+- [ex092](Mundo_3/ex091.py) - Jogo de dados em Python
+- [ex092](Mundo_3/ex092.py) - Cadastro de trabalhador em Python
+- [ex093](Mundo_3/ex093.py) - Cadastro de jogador de futebol
+- [ex094](Mundo_3/ex094.py) - Unindo dicionários e listas
+- [ex095](Mundo_3/ex095.py) - Aprimorando dicionários
 
 ### Funções
-- [ex096](ex096.py) - Função que calcula área
-- [ex097](ex097.py) - Um print especial
-- [ex098](ex098.py) - Função de contador
-- [ex099](ex099.py) - Função que descobre o maior
-- [ex100](ex100.py) - Funções para sortear e somar
-- [ex101](ex101.py) - Funções para votação
-- [ex102](ex102.py) - Função para fatorial
-- [ex103](ex103.py) - Ficha do jogador
-- [ex104](ex104.py) - Validando entrada de dados em Python
-- [ex105](ex105.py) - Analisando e gerando dicionários
-- [ex106](ex106.py) - Sistema interativo de ajuda em Python
+- [ex096](Mundo_3/ex096.py) - Função que calcula área
+- [ex097](Mundo_3/ex097.py) - Um print especial
+- [ex098](Mundo_3/ex098.py) - Função de contador
+- [ex099](Mundo_3/ex099.py) - Função que descobre o maior
+- [ex100](Mundo_3/ex100.py) - Funções para sortear e somar
+- [ex101](Mundo_3/ex101.py) - Funções para votação
+- [ex102](Mundo_3/ex102.py) - Função para fatorial
+- [ex103](Mundo_3/ex103.py) - Ficha do jogador
+- [ex104](Mundo_3/ex104.py) - Validando entrada de dados em Python
+- [ex105](Mundo_3/ex105.py) - Analisando e gerando dicionários
+- [ex106](Mundo_3/ex106.py) - Sistema interativo de ajuda em Python
 
 ### Modularização em Python
-- [ex107](ex107.py) - Exercitando módulos em Python
-- [ex108](ex108.py) - Formatando moedas em Python
-- [ex109](ex109.py) - Formatando moedas em Python
-- [ex110](ex110.py) - Reduzindo ainda mais o seu programa
-- [ex111](ex111.py) - Transformando módulos em pacotes
-- [ex112](ex112.py) - Entrada de dados monetários
+- [ex107](Mundo_3/ex107.py) - Exercitando módulos em Python
+- [ex108](Mundo_3/ex108.py) - Formatando moedas em Python
+- [ex109](Mundo_3/ex109.py) - Formatando moedas em Python
+- [ex110](Mundo_3/ex110.py) - Reduzindo ainda mais o seu programa
+- [ex111](Mundo_3/ex111.py) - Transformando módulos em pacotes
+- [ex112](Mundo_3/ex112.py) - Entrada de dados monetários
 
 ### Tratamento de erros em Python
-- [ex113](ex113.py) - Funções aprofundadas em Python
-- [ex114](ex114.py) - Site está acessível?
-- [ex115a](ex115a.py) - Criando um menu em Python
-- [ex115b](ex115b.py) - Criando um menu em Python
-- [ex115c](ex115c.py) - Finalizando o projeto
+- [ex113](Mundo_3/ex113.py) - Funções aprofundadas em Python
+- [ex114](Mundo_3/ex114.py) - Site está acessível?
+- [ex115a](Mundo_3/ex115a.py) - Criando um menu em Python
+- [ex115b](Mundo_3/ex115b.py) - Criando um menu em Python
+- [ex115c](Mundo_3/ex115c.py) - Finalizando o projeto
 
 # Autor
 
