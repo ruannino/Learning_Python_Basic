@@ -3,9 +3,11 @@
 # (desconsiderando o flag)
 soma = c = 0
 while True:
-    n = int(input('Digite um número: '))
+    n = int(input('\033[31mDigite um número: \033[m'))
     if n == 999:
         break
     soma += n
     c += 1
-print(f'O valor da soma dos {c} valores é {soma}')
+print('=-' * 20)
+print(f'O valor da soma dos \033[33m{c}\033[m valores é \033[32m{soma}\033[m.')
+print('=-' * 20)
