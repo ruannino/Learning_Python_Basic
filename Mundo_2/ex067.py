@@ -4,12 +4,16 @@ while True:
     num = int(input('Digite um número: '))
     cont = 0
     if num < 0:
-        print('\033[31mEncerrando...\033[m')
+        print('\033[31m=\033[m' * 35)
+        print('\033[31m > Encerrando...\033[m'.center(30))
         break
     else:
-        print(f'\033[31m+\033[32m==\033[33mTABUADA DO \033[31m[{num}]\033[32m ==\033[31m+\033[m')
-        while cont <= 10:
-            result = num * cont
-            print(f'    {num} \033[32mx\033[m {cont} \033[32m=\033[m {result}')
+        print('\033[33m=\033[m' * 35)
+        print(f'\033[32m*\033[33m== \033[mA TABUADA DO NÚMERO \033[32m{num} \033[33m==\033[32m*\033[m'.center(35))
+        print('\033[33m=\033[m' * 35)
+        while cont < 10:
+            result = cont * num
+            print(f'{cont} \033[32mx\033[m {num} \033[32m=\033[m {result}'.center(45))
             cont += 1
-        print('\033[33m=\033[m' * 20)
+    print('\033[33m=\033[m' * 35)
+print('\033[31m=\033[m' * 35)
