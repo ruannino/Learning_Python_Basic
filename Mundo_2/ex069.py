@@ -1,26 +1,26 @@
-# Crie um programa que leia a idade e o sexo de várias pessoas. A cada pessoa cadastrada, o programa devrá perguntar
+# Crie um programa que leia a idade e o sexo de várias pessoas. A cada pessoa cadastrada, o programa deverá perguntar
 # se o usuário quer ou não continuar. No final, mostre:
 # A) quantas pessoas tem mais de 18 anos. B) quantos homens foram cadastrados. C) quantas mulheres tem menos de 20 anos.
-
-cont_G = cont_M = cont_H = 0
-
+cont = 1
+maiorDezoito = mulheresVinte = homens = 0
+opcao = ''
 while True:
-    idade = int(input('Digite a idade: '))
-    sexo = ' '
-    while sexo not in 'MF':
-        sexo = str(input('Digite o sexo: ')).upper().strip()[0]
-    choice = ' '
-    while choice not in 'SN':
-        choice = str(input('Deseja continuar [S/N]: ')).strip().upper()[0]
-    if 'F' in sexo:
-        if idade <= 20:
-            cont_M += 1
-    elif 'M' in sexo:
-        cont_H += 1
-    if idade >= 18:
-        cont_G += 1
-    if 'N' in choice:
+    print('=' * 40)
+    print(f'*== Ficha #{cont} ==*'.center(40))
+    print('=' * 40)
+    nome = str(input('Nome: ')).strip()
+    idade = int(input('Idade: '))
+    if idade > 18:
+        maiorDezoito += 1
+    sexo = str(input('Sexo[F/M]: ')).strip().upper()
+    cont += 1
+    if idade < 20 and 'F' in sexo:
+        mulheresVinte += 1
+    if 'M' in sexo:
+        homens += 1
+    opcao = str(input('Quer continuas [N/S]: ')).strip().upper()
+    if 'N' in opcao:
         break
-print(f'Total de pessoas com mais de 18 anos: {cont_G}')
-print(f'Total de Homens cadastrados: {cont_H}')
-print(f'O total de mulheres que tem menos de 20 anos: {cont_M}')
+print(f'Foram cadastradas {maiorDezoito} pessoas maiores de 18 anos.')
+print(f'Foram cadastrados {homens} homem(ns).')
+print(f'Foram cadastradas {mulheresVinte} mulher(es) menores de 20 anos.')
