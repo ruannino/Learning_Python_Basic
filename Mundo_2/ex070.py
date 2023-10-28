@@ -1,26 +1,39 @@
 # Crie um programa que leia o nome e o preço de vários produtos. O programa deverá perguntar se o usuário vai continuar.
 # No final, mostre:
 # A)Qual é o total gasto na compra. B)Quantos produtos custam mais de R$1000. C)Qual é o nome do produto mais barato.
-total = menor_preco = cont_k = 0
-nome_menor = nome_produto = ''
-print('-' * 20)
-print('LOJA SUPER BARATÃO')
-print('-' * 20)
+from time import sleep
+prod_barato = ''
+qnt_produtos = soma = prod_1000 = prec_prod_barato = 0
+print('=' * 60)
+print('Preçonildo Center Shopping'.center(60))
+print('=' * 60)
 while True:
-    nome_produto = str(input('\033[40mNome do produto: \033[m'))
-    preco = float(input('\033[43mPreço: \033[32mR$\033[m'))
-    choice = ' '
-    while choice not in 'SN':
-        choice = str(input('\033[42mQuer continuar?\033[7m [S/N] \033[m')).upper().strip()
-    if total == 0 or preco < menor_preco:
-        menor_preco = preco
-        nome_menor = nome_produto
-    total += preco
-    if preco >= 1000:
-        cont_k += 1
-    if 'N' in choice:
+    qnt_produtos += 1
+    nome_produto = str(input(f'Nome do {qnt_produtos}º Produto: '))
+    preco_produto = float(input('Valor: R$'))
+    print('=' * 60)
+    soma += preco_produto
+    if qnt_produtos == 1:
+        prod_barato = nome_produto
+        prec_prod_barato = preco_produto
+    elif qnt_produtos > 1 and preco_produto < prec_prod_barato:
+        prod_barato = nome_produto
+        prec_prod_barato = preco_produto
+    if preco_produto > 1000:
+        prod_1000 += 1
+    opcao = str(input('Continuar ? [S/N]')).strip().upper()
+    if 'N' in opcao:
+        print('Encerrando...')
+        sleep(1)
         break
-print('-' * 5, 'FIM DO PROGRAMA', '-' * 5)
-print(f'O total da compra foi \033[32mR$ {total:.2f}.\033[m')
-print(f'Temos \033[33m{cont_k} \033[mprodutos custando mais de \033[32mR$ 10000.00\033[m')
-print(f'O produto mais barato foi \033[33m{nome_menor}\033[m que custa \033[32mR$ {menor_preco:.2f}.\033[m')
+    if 'S' in opcao:
+        print('próximo produto...')
+        print('=' * 60)
+        sleep(1)
+print('=' * 60)
+print(f'Total: \033[32mR${soma:.2f}\033[m.')
+print('=' * 60)
+sleep(10)
+print(f'Item mais barato foi {prod_barato} custando R${prec_prod_barato:.2f}.')
+print(f'Um total de 0{prod_1000} de produtos com valores acima de R$1.000,00.')
+print('=' * 60)
