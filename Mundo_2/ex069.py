@@ -5,9 +5,9 @@ cont = 1
 maiorDezoito = mulheresVinte = homens = 0
 opcao = ''
 while True:
-    print('=' * 40)
+    print('\033[34m=\033[m' * 40)
     print(f'*== Ficha #{cont} ==*'.center(40))
-    print('=' * 40)
+    print('\033[34m=\033[m' * 40)
     nome = str(input('Nome: ')).strip()
     idade = int(input('Idade: '))
     if idade > 18:
@@ -18,9 +18,12 @@ while True:
         mulheresVinte += 1
     if 'M' in sexo:
         homens += 1
+    print('\033[34m-\033[m' * 40)
     opcao = str(input('Quer continuas [N/S]: ')).strip().upper()
     if 'N' in opcao:
         break
-print(f'Foram cadastradas {maiorDezoito} pessoas maiores de 18 anos.')
-print(f'Foram cadastrados {homens} homem(ns).')
-print(f'Foram cadastradas {mulheresVinte} mulher(es) menores de 20 anos.')
+print('\033[34m-\033[m' * 40)
+print(f'Foram cadastradas \033[33m{maiorDezoito}\033[m pessoas maiores de 18 anos.')
+print(f'Foram cadastrados \033[33m{homens}\033[m homem(ns).')
+print(f'Foram cadastradas \033[33m{mulheresVinte}\033[m mulher(es) menores de 20 anos.')
+print('\033[34m-\033[m' * 40)
