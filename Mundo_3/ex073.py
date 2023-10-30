@@ -8,17 +8,3 @@
 tabela = ('Corinthians' , 'Palmeiras', 'Santos', 'Grêmio', 'Cruzeiro', 'Flamengo', 'Vasco', 'Chapecoense',
           'Atlético', 'Botafogo', 'Atlético-PR', 'Bahia', 'São Paulo', 'Fluminense', 'Sport Recife',
           'Coritiba', 'Avaí', 'Ponte Preta', 'Atlético-GO')
-
-print('TABELA BRASILEIRÃO')
-print('=-' * 50)
-print(f'A tabela completa do brasileirão: {tabela}')
-print('=-' * 50)
-print(f'Os #05 primeiros colocados são: {tabela[0:5]}')
-print('=-' * 50)
-print(f'Os #04 últimos colocados são: {tabela[-4:]}')
-print('=-' * 50)
-print(f'Os times em ordem alfábetica: {sorted(tabela)}')
-print('=-' * 50)
-print(f'O Chapecoese está na posição: {tabela.index("Chapecoense")+1}ª')
-print('=-' * 50)
-print('Encerrando...')
