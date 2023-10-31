@@ -3,9 +3,3 @@
 
 words = ('aprender', 'programar', 'linguagem', 'python', 'curso', 'gratis',
          'praticar', 'trabalhar', 'mercado', 'programador', 'futuro')
-
-for snippet in words:
-    print(f'\nNa palavra {snippet.upper()} temos', end=' ')
-    for letter in snippet:
-        if letter.lower() in 'aeiou':
-            print(letter, end=' ')
