@@ -12,13 +12,18 @@ for n in range(0, 5):
             maior = numbers[n]
         if menor > numbers[n]:
             menor = numbers[n]
-print(f'A lista completa: {numbers}')
-print(f'O maior valor foi o {maior} na posição ', end='')
+print('\033[34m=\033[m' * 50)
+print('MAIOR E MENOR VALORES'.center(50))
+print('\033[34m=\033[m' * 50)
+print(f'A lista completa: \033[40m{numbers}\033[m')
+print(f'O \033[32mmaior\033[m valor foi o \033[32m{maior}\033[m na posição ', end='')
 for i, v in enumerate(numbers):
     if v == maior:
-        print(f'{i}...', end='')
+        print(f'\033[33m{i}\033[m...', end='')
 print()
-print(f'O menor valor foi o {menor} na posição ', end='')
+print(f'O \033[32mmenor\033[m valor foi o \033[32m{menor}\033[m na posição ', end='')
 for i, v in enumerate(numbers):
     if v == menor:
-        print(f'{i}...', end='')
+        print(f'\033[33m{i}\033[m...', end='')
+print()
+print('\033[34m=\033[m' * 50)
