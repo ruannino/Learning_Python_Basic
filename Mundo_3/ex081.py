@@ -3,14 +3,16 @@
 # C) Se o valor 5 foi digitado e está ou não na lista.
 numbers = []
 while True:
-    numbers.append(int(input('Digite um valor: ')))
-    resposta = str(input('Quer continuar ? [S/N] ')).upper().strip()
-    if resposta in 'N':
+    numbers.append(int(input('Digite um número: ')))
+    op = str(input('Quer continuar ? [S/N]: ')).strip().upper()
+    while op not in ('S', 'N'):
+        print('Erro! Digite "S" ou "N"...', end='')
+        op = str(input('Quer continuar ? [S/N]: ')).strip().upper()
+    if op == 'N':
         break
-print(f'Você digitou {len(numbers)} valores')
-numbers.sort(reverse=True)
-print(f'A lista ordenada descrescente {numbers}')
+print(f'Foram digitados: {len(numbers)} números.')
+print(f'A lista ordenada de forma descrescente: {sorted(numbers, reverse=True)}')
 if 5 in numbers:
-    print('O valor 5 faz parte da lista.')
+    print(f'O valor 5 foi encontrado na lista {numbers.count(5)} vez(es).')
 else:
-    print('O valor 5 não faz parte da lista.')
+    print(f'O valor 5 não foi encontrado na lista.')

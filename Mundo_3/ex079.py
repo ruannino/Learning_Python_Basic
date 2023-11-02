@@ -6,11 +6,16 @@ while True:
     n = int(input('Digite um valor: '))
     if n not in numbers:
         numbers.append(n)
-        print('Número adicionado com sucesso.')
+        print(f'Número {n} adicionado com sucesso...')
     else:
-        print('Valor duplicado. Não foi adicionado...')
-    r = str(input('Continue ? [S/N]: '))
-    if r in 'Nn':
+        print(f'Número {n} já existe na lista. Não vou adicionar!')
+
+    op = str(input('Deseja continuar ? [S/N]: ')).strip().upper()
+    while op not in ('S', 'N'):
+        print('Erro! Digite "S" ou "N"...', end='')
+        op = str(input('Deseja continuar ? [S/N]: ')).strip().upper()
+
+    if op == 'N':
         break
-numbers.sort()
-print(f'Você digito os valores em em ordem crescente: {numbers}')
+
+print(f'A lista de números em ordem crescente: {sorted(numbers)}')

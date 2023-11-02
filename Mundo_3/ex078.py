@@ -1,25 +1,17 @@
 # Faça um programa que leia 5 valores numéricos e guarde-os em uma lista.
 # No final, mostre qual foi o maior e o menor valor digitado e as suas respectivas posições na lista.
 numbers = []
-minor = bigger = 0
-for cont in range(0, 5):
-    numbers.append(int(input(f'Digite o {cont + 1}º valor: ')))
-    if cont == 0:
-        minor = bigger = numbers[cont]
+maior = menor = 0
+for n in range(0, 5):
+    numbers.append(int(input('Digite um valor: ')))
+    if n == 0:
+        maior = numbers[n]
+        menor = numbers[n]
     else:
-        if numbers[cont] < minor:
-            minor = numbers[cont]
-        if numbers[cont] > bigger:
-            bigger = numbers[cont]
-print(f'{"LISTAGEM":-^60}')
-print(f'A lista completa: \033[40m{numbers}\033[m')
-print(f'O menor número foi o \033[33m{minor}\033[m e está nas posições ', end='')
-for i, v in enumerate(numbers):
-    if v == minor:
-        print(f'{i}...', end='')
-print(f'\nO maior número foi o \033[33m{bigger}\033[m e está nas posições ', end='')
-for i, v in enumerate(numbers):
-    if v == bigger:
-        print(f'{i}...', end='')
-print()
-print('-' * 60)
+        if maior < numbers[n]:
+            maior = numbers[n]
+        if menor > numbers[n]:
+            menor = numbers[n]
+print(f'A lista completa: {numbers}')
+print(f'O maior valor foi o {maior} na posição {numbers.index(maior)}')
+print(f'O maior valor foi o {menor} na posição {numbers.index(menor)}')
