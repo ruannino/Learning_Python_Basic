@@ -13,5 +13,12 @@ for n in range(0, 5):
         if menor > numbers[n]:
             menor = numbers[n]
 print(f'A lista completa: {numbers}')
-print(f'O maior valor foi o {maior} na posição {numbers.index(maior)}')
-print(f'O maior valor foi o {menor} na posição {numbers.index(menor)}')
+print(f'O maior valor foi o {maior} na posição ', end='')
+for i, v in enumerate(numbers):
+    if v == maior:
+        print(f'{i}...', end='')
+print()
+print(f'O menor valor foi o {menor} na posição ', end='')
+for i, v in enumerate(numbers):
+    if v == menor:
+        print(f'{i}...', end='')
