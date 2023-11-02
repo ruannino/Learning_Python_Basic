@@ -11,7 +11,7 @@ for n in range(0, 5):
         while pos < len(numbers):
             if v <= numbers[pos]:
                 numbers.insert(pos, v)
-                print(f'O número foi adicionado a posição {pos} da lista.')
+                print(f'O número foi adicionado a posição \033[33m{pos}\033[m da lista.')
                 break
             pos += 1
 print('\033[35m=\033[m' * 40)
