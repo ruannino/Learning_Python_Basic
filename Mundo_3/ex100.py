@@ -4,24 +4,23 @@
 from random import randint
 
 
-def sorteia(a):
-    sor = list()
-    for n in range(0, a):
-        valor = randint(0, 100)
-        sor.append(valor)
-    print(f'Os números soteados foram {sor}.')
-    return sor
+def sorteia(lista):
+    print('Sorteando 5 valores para lista: ', end='')
+    for cont in range(0, 5):
+        valor = randint(1, 10)
+        lista.append(valor)
+        print(f'{valor} ', end='')
+    print('FIM!')
 
 
-def somaPar(lst):
-    par = list()
+def soma_par(lst):
     soma = 0
     for n in lst:
         if n % 2 == 0:
-            par.append(n)
             soma += n
-    print(f'A lista tem os seguintes números Pares {par} e a soma entre eles é {soma}.')
+    print(f'A soma dos valores pares da lista {lst} é {soma}.')
 
 
-sorteia(5)
-somaPar(sor)
+numbers = list()
+sorteia(numbers)
+soma_par(numbers)
