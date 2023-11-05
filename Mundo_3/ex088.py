@@ -32,3 +32,5 @@ for g in all_games:
     sleep(1)
 print('\n')
 print('\033[33m=\033[m' * 40)
+print(f'\033[32m{"BOA SORTE!":^40}\033[m')
+print('\033[33m=\033[m' * 40)
