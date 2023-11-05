@@ -8,7 +8,7 @@ for n in range(3):
         linha.append(valor)
     matriz.append(linha[:])
 print('\033[40m-\033[m' * 20)
-print('MATRIZ'.center(20))
+print(f'\033[40m{"MATRIZ":^20}\033[m')
 print('\033[40m-\033[m' * 20)
 for n in range(3):
     for i in range(3):

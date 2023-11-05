@@ -19,14 +19,14 @@ for n in range(3):
                 mSL = valor
     matriz.append(linha[:])
 print('\033[40m-\033[m' * 20)
-print('MATRIZ'.center(20))
+print(f'\033[40m{"MATRIZ":^20}\033[m')
 print('\033[40m-\033[m' * 20)
 for n in range(3):
     for i in range(3):
         print(f'[{matriz[n][i]}]    ', end='')
     print()
 print('\033[40m-\033[m' * 50)
-print('RESULTADO'.center(50))
+print(f'\033[40m{"RESULTADO":^50}\033[m')
 print('\033[40m-\033[m' * 50)
 print(f'A soma de todos os valores pares é: {somapar}.')
 print(f'A soma de todos os valores da terceira coluna é: {colunaT}.')
