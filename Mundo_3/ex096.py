@@ -1,7 +1,9 @@
 # Faça um programa que tenha uma função chamada área(), que receba as dimensões de um terreno retangular (largura e
 # comprimento) e mostre a área do terreno.
-def area(c, l):
-    tot = com * lar
+
+
+def area(comprimento, largura):
+    tot = comprimento * largura
     print(f'O terreno tem \033[32m{tot:.2f} m²\033[m.')
 
 
