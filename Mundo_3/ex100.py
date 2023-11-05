@@ -10,6 +10,7 @@ def sorteia(a):
         valor = randint(0, 100)
         sor.append(valor)
     print(f'Os números soteados foram {sor}.')
+    return sor
 
 
 def somaPar(lst):
@@ -23,4 +24,4 @@ def somaPar(lst):
 
 
 sorteia(5)
-somaPar()
+somaPar(sor)
