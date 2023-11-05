@@ -5,14 +5,24 @@ all_class = []
 aluno = []
 indice = 0
 print('\033[34m=\033[m' * 50)
-print('CADASTRO DE NOTAS')
+print('CADASTRO DE NOTAS'.center(50))
 print('\033[34m=\033[m' * 50)
 while True:
     nome = str(input('Nome do Aluno(a): ')).strip()
     aluno.append(nome)
-    nota1 = float(input('Nota #1: '))
+    while True:
+        nota1 = float(input('Nota #1: '))
+        if 0 >= nota1 <= 10:
+            break
+        else:
+            print('\033[31mErro!\033[m Digite uma nota válida entre \033[33m0\033[m e \033[33m10\033[m...')
     aluno.append(nota1)
-    nota2 = float(input('Nota #2: '))
+    while True:
+        nota2 = float(input('Nota #2: '))
+        if 0 >= nota2 <= 10:
+            break
+        else:
+            print('\033[31mErro!\033[m Digite uma nota válida entre \033[33m0\033[m e \033[33m10\033[m...')
     aluno.append(nota2)
     media = (nota1 + nota2) / 2
     aluno.append(media)
