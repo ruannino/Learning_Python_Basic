@@ -10,10 +10,14 @@ def maior(* num):
             if nu > top:
                 top = nu
             cont += 1
-    print(f'Recebi os números ', end='')
+    print('\033[34m=\033[m' * 40)
+    print('VERIFICADOR DE NÚMEROS'.center(40))
+    print('\033[34m=\033[m' * 40)
+    print(f'Recebi os números: ', end='')
     for n in num:
         print(f'\033[33m{n}\033[m ', end='')
-    print(f', totalizando \033[33m{cont}\033[m números e o maior foi o \033[33m{top}\033[m !')
+    print(f',\nTotalizando: \033[33m{cont}\033[m números.')
+    print(f'O maior foi o \033[33m{top}\033[m !')
 
 
 maior(10, 8, 9, 13, 6)
