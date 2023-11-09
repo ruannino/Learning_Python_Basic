@@ -62,9 +62,9 @@ while True:
         print(f'Fez um total de {jogadores[op]["Total"]} gols.')
         print(f'Seu desempenho é {jogadores[op]["Desepenho"]}')
         print('\033[32m=*\033[m' * 30)
+    elif op < -1 or op > len(jogadores) - 1:
+        print(f'\033[31mErro!\033[m Digite um índice válido entre '
+              f'\033[33m0\033[m e \033[33m{len(jogadores) - 1}\033[m...')
     if op == -1:
         print('\033[31m>>>>> Encerrando...\033[m')
         break
-    else:
-        print(f'\033[31mErro!\033[m Digite um índice válido entre '
-              f'\033[33m0\033[m e \033[33m{len(jogadores) - 1}\033[m...')
