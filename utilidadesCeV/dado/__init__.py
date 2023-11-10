@@ -7,3 +7,19 @@ def leia_dinheiro(msg):
         else:
             valido = True
             return float(entrada)
+
+
+def leia_int():
+    """
+    -> Verifica se o input é númerico.
+    :return: Apenas caso o input seja númerico.
+    Criada por Ruannino.
+    """
+    while True:
+        num = str(input('Digite um número: '))
+        if num.isnumeric():
+            num = int(num)
+            print(f'Você digitou o número \033[32m>>>\033[m {num}!')
+            break
+        else:
+            print('\033[31mErro!\033[m Digite um número válido!')
