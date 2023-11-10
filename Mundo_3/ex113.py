@@ -2,6 +2,12 @@
 # da digitação de um número de tipo inválido. Aproveite e crie também uma função leia_float()
 # com a mesma funcionalidade.
 def leia_int(msg):
+    """
+    -> Verifica se o valor numérico inserido é inteiro.
+    :param msg: Inseri o valor.
+    :return: Retorna o valor quando o valor é inteiro.
+    Criado por Ruannino.
+    """
     while True:
         try:
             n = int(input(msg))
@@ -16,6 +22,12 @@ def leia_int(msg):
 
 
 def leia_float(txt):
+    """
+    -> Verifica se o valor numérico inserido é real.
+    :param txt: Inseri o valor.
+    :return: Retorna o valor quando o valor é real.
+    Criado por Ruannino.
+    """
     while True:
         try:
             num = float(input(txt))
