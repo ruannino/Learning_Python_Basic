@@ -1,4 +1,10 @@
 def leia_dinheiro(msg):
+    """
+    -> Verifica os valores de moeda e válida os dados.
+    :param msg: Recebe o valor.
+    :return: Retorna o valor, já validado e convertido.
+    Criado por Ruannino.
+    """
     valido = False
     while not valido:
         entrada = str(input(msg).replace(',', '.'))
