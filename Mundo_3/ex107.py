@@ -3,7 +3,8 @@
 # Obs.: por exemplo, o 'aumentar()' recebe o preço e uma porcentagem, e calcula.
 from utilidadesCeV.moeda import aumentar, diminuir, dobro, metade
 
-print(aumentar(500, 10))
-print(diminuir(500, 10))
-print(dobro(500))
-print(metade(500))
+n = float(input('Digite o preço: R$'))
+print(f'O sobro de R$ {n} é R$ {dobro(n)}')
+print(f'A metade de R$ {n} é R$ {metade(n)}')
+print(f'Aumento de {n} em 10% é R$ {aumentar(n, 10)}')
+print(f'Diminuindo {n} em 20% é R$ {diminuir(n, 20)}')
