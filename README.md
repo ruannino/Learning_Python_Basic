@@ -4,7 +4,7 @@
 ___________________________________________________________________________
 <h2 aling="center"> Exercises and more </h2>
 <p aling="center">
-<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+<img src="http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=BLUE&style=for-the-badge"/>
 </p>
 
 Repositório destinado a compartilhar o desenvolvimento em meus estudos na linguagem **PYTHON**, utilizando a IDE 
