@@ -1,2 +1,4 @@
 Ruan;32
 Jessica;30
+Julia;5
+Penha;65
