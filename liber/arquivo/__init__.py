@@ -2,6 +2,12 @@ from liber.interface import titulo
 
 
 def arquivo_existe(nome):
+    """
+    -> Verifica se um arquivo existe ou não.
+    :param nome: Nome do arquivo.
+    :return: Verdadeiro se o arquivo foi encontrado ou Falso se o arquivo não foi encontrado.
+    Criado por Ruannino.
+    """
     try:
         a = open(nome, 'rt')
         a.close()
@@ -12,6 +18,12 @@ def arquivo_existe(nome):
 
 
 def criar_arquivo(nome):
+    """
+    -> Cria um arquivo de texto.
+    :param nome: Recebe o nome do arquivo a ser criado.
+    :return: Criação de um arquivo txt.
+    Criado por Ruannino.
+    """
     try:
         a = open(nome, 'wt+')
         a.close()
@@ -22,6 +34,12 @@ def criar_arquivo(nome):
 
 
 def ler_arquivo(nome):
+    """
+    -> Faz a leitura de uma arquivo e o ordena em um layout.
+    :param nome: Recebe o nome do arquivo a ser lido.
+    :return: Imprime os dados do arquivo em um layout ordenado.
+    Criado por Ruannino.
+    """
     try:
         a = open(nome, 'rt')
     except Exception:
@@ -38,6 +56,14 @@ def ler_arquivo(nome):
 
 
 def novo_cadastro(arquivo, nome='desconhecido', idade=0):
+    """
+    -> Cadastra dados de nome e idade de uma pessoa em um arquivo de texto.
+    :param arquivo: Nome do arquivo de cadastramento.
+    :param nome: Nome para inserir no cadastro.
+    :param idade: Idade para inserir no cadastro.
+    :return: Cadastro dos dados no arquivo de cadastramento.
+    Criado por Ruannino.
+    """
     try:
         a = open(arquivo, 'at')
     except:
