@@ -1,33 +1,38 @@
-def leia_int(msn):
+def leia_int(msg):
+    """
+    -> Verifica se o valor numérico inserido é inteiro.
+    :param msg: Inseri o valor.
+    :return: Retorna o valor quando o valor é inteiro.
+    Criado por Ruannino.
+    """
     while True:
         try:
-            num = int(input(msn))
+            n = int(input(msg))
         except (ValueError, TypeError):
-            print('\033[31mErro! Digite um número Inteiro válido...\033[m')
+            print('\033[31mErro!\033[m Digite um número inteiro válido!')
             continue
         except KeyboardInterrupt:
-            print('\033[31mEntrada de dados interrompida pelo usuário.\033[m')
+            print('\033[33mEntrada de dados interropida pelo usuário!\033[m')
             return 0
         else:
-            return num
+            return n
 
 
 def linha(tam=42):
     return '-' * tam
 
 
-def cabecalho(txt):
+def titulo(msg):
     print(linha())
-    print(txt.center(42))
+    print(f'{msg}'.center(42))
     print(linha())
-
 
 def menu(lista):
-    cabecalho('MENU PRINCIPAL')
+    titulo('MENU PRINCIPAL')
     c = 1
-    for item in lista:
-        print(f'\033[33m{c}\033[m - \033[34m{item}\033[m')
+    for i in lista:
+        print(f'\033[33m{c} - \033[34m{i}\033[m')
         c += 1
     print(linha())
-    opc = leia_int('\033[32mSua Opção: \033[m')
-    return opc
+    op = leia_int('\033[32mSua opção:\033[m ')
+    return op
